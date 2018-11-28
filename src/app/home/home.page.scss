@@ -1,1 +1,25 @@
-
+.body, ion-header, ion-toolbar{
+    --background: #336600;
+    --color: #ffffff;
+}
+ion-list{
+    --ion-background-color: #336600;
+}
+ion-input{
+    --color: #ffffff;
+}
+ion-item{
+    --ion-item-color: #ffffff;
+}
+ion-button{
+    --color: #ffffff;
+}
+.button-outline {
+    --border-color: #ffffff;
+    --background: transparent;
+    --color: #ffffff;
+    --color-focused: var(--ion-color-primary,#3880ff);
+}
+.form{
+    margin-top: 15%;
+}
